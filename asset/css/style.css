@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: "Kantumruy Pro", sans-serif; */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  /* background-color: antiquewhite  ; */
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.col-1 {
+  width: 8.333333333333333%;
+}
+.col-2 {
+  width: 16.66666666666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: 41.66666666666667%;
+}
+.col-6 {
+  /* background-color: antiquewhite; */
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333333333333%;
+}
+.col-8 {
+  width: 66.66666666666667%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33333333333333%;
+}
+.col-11 {
+  width: 91.66666666666667%;
+}
+.col-12 {
+  width: 100%;
+}
+
+/* ================== Header ==================== */
+
+header {
+  height: 40px;
+  background-color: rgb(219, 31, 31);
+}
+
+/* ================== Header end ==================== */
+
+/* ================== Main ==================== */
+
+section {
+  margin: 60px 0;
+}
+
+.food-tastes .row{
+  align-items: center;
+}
+
+.food-tastes .left {
+  margin-bottom: 25px;
+}
+
+.food-tastes .left h1 {
+  color: rgb(219, 31, 31);
+  margin-bottom: 8px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.food-tastes .btn a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding: 8px 22px;
+  background-color: rgb(219, 31, 31);
+  transition-duration: 0.3s;
+}
+
+.food-tastes .btn a:hover {
+  background-color: rgb(134, 20, 20);
+}
+
+.food-tastes .right img {
+  width: 100%;
+  display: block;
+  height: 350px;
+}
+
+.we-make .row {
+  margin: 0 -30px;
+}
+
+.we-make .col-6 {
+  padding-inline: 30px;
+}
+
+.we-make .left img {
+  width: 100%;
+  display: block;
+}
+
+.we-make .right h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.we-make .right p {
+  color: rgb(177, 177, 177);
+  margin-bottom: 20px;
+}
+
+.we-make .btn a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 22px;
+  color: white;
+  font-size: 12px;
+  background-color: rgb(219, 31, 31);
+  transition-duration: 0.3s;
+}
+
+.we-make .btn a:hover {
+  background-color: rgb(134, 20, 20);
+}
+
+.tasty-menu h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.tasty-menu .card {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.tasty-menu .card .card-header {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tasty-menu .card .card-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tasty-menu .card-body {
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.tasty-menu .row {
+  margin: 0 -10px;
+}
+
+.tasty-menu .col-4 {
+  padding-inline: 10px;
+}
+
+.tasty-menu .card-body h4 {
+  padding-top: 15px;
+  padding-inline: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tasty-menu .card-body p {
+  color: rgb(75, 75, 75);
+  padding-top: 5px;
+  padding-inline: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tasty-menu .card-body .btn a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 8px 22px;
+  margin: 15px 5px;
+  background-color: rgb(219, 31, 31);
+  transition-duration: 0.3s;
+}
+
+.tasty-menu .card-body .btn a:hover {
+  background-color: rgb(134, 20, 20);
+}
+
+.we-provide .col-12 h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.we-provide .row{
+  margin: 0 -10px;
+}
+
+.we-provide .col-4{
+  padding-inline: 10px;
+}
+
+.we-provide .order{
+  background-color: rgb(230, 230, 230);
+}
+
+.we-provide .order h3{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.we-provide .order p{
+  color: rgb(165, 165, 165);
+  text-align: justify;
+  padding-inline: 5px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.we-provide .connect{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.we-provide .connect h2{  
+  font-size: 24px;
+  font-weight: 800;
+  /* margin-bottom: 60px; */
+}
+
+.we-provide .connect a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 22px;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(219, 31, 31);
+  transition-duration: 0.3s;
+}
+
+.we-provide .connect a:hover{
+  background-color: rgb(134, 20, 20);
+}
+/* ================== Main end ==================== */
+
+
+/* ================== Footer ==================== */
+
+footer{
+  background-color: rgb(219, 31, 31);
+  padding: 20px 0;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer h3{
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 5px;
+}
+
+
+footer ul li a{
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+
+footer .row{
+  display: flex;
+}
+
+/* ================== Footer end ==================== */
